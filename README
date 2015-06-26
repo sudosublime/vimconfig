@@ -1,0 +1,10 @@
+git clone --recursive https://github.com/sudosublime/vimconfig.git
+
+This should clone everything include the git submodules.
+
+If you have already cloned or want to obtain updates from the submodules (and from the main repo) run the following:
+
+git pull && git submodule init && git submodule update && git submodule status
+
+
+
