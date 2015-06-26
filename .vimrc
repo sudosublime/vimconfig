@@ -14,3 +14,6 @@ nnoremap <F9> :Dispatch<CR>
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
 :set guioptions-=L  "remove left-hand scroll bar
+
+
+set lines=40 columns=150
