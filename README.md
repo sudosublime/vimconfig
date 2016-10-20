@@ -18,5 +18,5 @@ well.
 
 ```
 cd ~/
-ln -s .vimrc .vim/.vimrc
+ln -s .vim/.vimrc .vimrc
 ```
