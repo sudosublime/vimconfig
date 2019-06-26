@@ -40,3 +40,8 @@ set lines=40 columns=150
 
 " Turn on spell check
 :set spell spelllang=en_us 
+
+
+let vim_markdown_preview_github=1
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
