@@ -41,7 +41,14 @@ set lines=40 columns=150
 " Turn on spell check
 :set spell spelllang=en_us 
 
-
+" vimwiki 
+" for new path, create wiki_x and add it to the list
 let vim_markdown_preview_github=1
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+
+let wiki_1 = {}
+let wiki_1.path = '~/vimwiki/'
+let wiki_1.syntax = 'markdown'
+let wiki_1.ext = '.md'
+
+let g:vimwiki_list = [wiki_1]
+
